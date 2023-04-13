@@ -9,21 +9,60 @@
 /* Begin PBXBuildFile section */
 		2DD964A329E8313D0033E803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964A229E8313D0033E803 /* AppDelegate.swift */; };
 		2DD964A529E8313D0033E803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964A429E8313D0033E803 /* SceneDelegate.swift */; };
-		2DD964A729E8313D0033E803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964A629E8313D0033E803 /* ViewController.swift */; };
-		2DD964AA29E8313D0033E803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964A829E8313D0033E803 /* Main.storyboard */; };
 		2DD964AC29E8313E0033E803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964AB29E8313E0033E803 /* Assets.xcassets */; };
 		2DD964AF29E8313E0033E803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964AD29E8313E0033E803 /* LaunchScreen.storyboard */; };
+		2DD964BB29E835440033E803 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964BA29E835440033E803 /* TabBarController.swift */; };
+		2DD964C229E8380D0033E803 /* PrayerTimesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964C129E8380D0033E803 /* PrayerTimesController.swift */; };
+		2DD964C429E838180033E803 /* QiblaFinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964C329E838180033E803 /* QiblaFinderController.swift */; };
+		2DD964C629E838220033E803 /* SurahsDuasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964C529E838220033E803 /* SurahsDuasController.swift */; };
+		2DD964C829E838310033E803 /* HadithsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964C729E838310033E803 /* HadithsController.swift */; };
+		2DD964CA29E838400033E803 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964C929E838400033E803 /* SettingsController.swift */; };
+		2DD964D429E83DBA0033E803 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964D329E83DBA0033E803 /* UIFont+.swift */; };
+		2DD964F529E842A00033E803 /* Cera Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964EF29E842A00033E803 /* Cera Pro Light.otf */; };
+		2DD964F629E842A00033E803 /* Cera Pro Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964F029E842A00033E803 /* Cera Pro Regular Italic.otf */; };
+		2DD964F729E842A00033E803 /* Cera Pro Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964F129E842A00033E803 /* Cera Pro Black Italic.otf */; };
+		2DD964F829E842A00033E803 /* Cera Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964F229E842A00033E803 /* Cera Pro Bold.otf */; };
+		2DD964F929E842A00033E803 /* Cera Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964F329E842A00033E803 /* Cera Pro Medium.otf */; };
+		2DD964FA29E842A00033E803 /* Cera Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964F429E842A00033E803 /* Cera Pro Black.otf */; };
+		2DD964FC29E846150033E803 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964FB29E846150033E803 /* UIColor+.swift */; };
+		2DD964FF29E847330033E803 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964FE29E847330033E803 /* PrayerTimesView.swift */; };
+		2DD9650229E848DD0033E803 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD9650129E848DD0033E803 /* SnapKit */; };
+		2DD9650429E84B350033E803 /* PrayerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650329E84B350033E803 /* PrayerItemView.swift */; };
+		2DD9650629E84B620033E803 /* PrayerItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */; };
+		2DD9650829E865990033E803 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650729E865990033E803 /* UIApplication+.swift */; };
+		2DD9650A29E866610033E803 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650929E866610033E803 /* UIView+.swift */; };
+		2DD9650C29E867D00033E803 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650B29E867D00033E803 /* UIStackView+.swift */; };
+		2DD9651129E8698E0033E803 /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD9651029E8698E0033E803 /* NetworkManager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DD9649F29E8313D0033E803 /* PrayerTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD964A229E8313D0033E803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD964A429E8313D0033E803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DD964A629E8313D0033E803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DD964A929E8313D0033E803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD964AB29E8313E0033E803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD964AE29E8313E0033E803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD964B029E8313E0033E803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD964BA29E835440033E803 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2DD964C129E8380D0033E803 /* PrayerTimesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesController.swift; sourceTree = "<group>"; };
+		2DD964C329E838180033E803 /* QiblaFinderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaFinderController.swift; sourceTree = "<group>"; };
+		2DD964C529E838220033E803 /* SurahsDuasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahsDuasController.swift; sourceTree = "<group>"; };
+		2DD964C729E838310033E803 /* HadithsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithsController.swift; sourceTree = "<group>"; };
+		2DD964C929E838400033E803 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		2DD964D329E83DBA0033E803 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		2DD964EF29E842A00033E803 /* Cera Pro Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Light.otf"; sourceTree = "<group>"; };
+		2DD964F029E842A00033E803 /* Cera Pro Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Regular Italic.otf"; sourceTree = "<group>"; };
+		2DD964F129E842A00033E803 /* Cera Pro Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Black Italic.otf"; sourceTree = "<group>"; };
+		2DD964F229E842A00033E803 /* Cera Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Bold.otf"; sourceTree = "<group>"; };
+		2DD964F329E842A00033E803 /* Cera Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Medium.otf"; sourceTree = "<group>"; };
+		2DD964F429E842A00033E803 /* Cera Pro Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Black.otf"; sourceTree = "<group>"; };
+		2DD964FB29E846150033E803 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		2DD964FE29E847330033E803 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		2DD9650329E84B350033E803 /* PrayerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemView.swift; sourceTree = "<group>"; };
+		2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemViewModel.swift; sourceTree = "<group>"; };
+		2DD9650729E865990033E803 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		2DD9650929E866610033E803 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2DD9650B29E867D00033E803 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		2DD9650E29E868E90033E803 /* NetworkManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkManager; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD9650229E848DD0033E803 /* SnapKit in Frameworks */,
+				2DD9651129E8698E0033E803 /* NetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +81,10 @@
 		2DD9649629E8313D0033E803 = {
 			isa = PBXGroup;
 			children = (
+				2DD9650E29E868E90033E803 /* NetworkManager */,
 				2DD964A129E8313D0033E803 /* PrayerTimes */,
 				2DD964A029E8313D0033E803 /* Products */,
+				2DD9650F29E8698E0033E803 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,136 @@
 		2DD964A129E8313D0033E803 /* PrayerTimes */ = {
 			isa = PBXGroup;
 			children = (
+				2DD964D229E83DB00033E803 /* Extensions */,
+				2DD964CB29E83D3F0033E803 /* Fonts */,
+				2DD964B629E8349F0033E803 /* App */,
+				2DD964B729E834A80033E803 /* Resources */,
+				2DD964B829E834CC0033E803 /* Scenes */,
+			);
+			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		2DD964B629E8349F0033E803 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				2DD964A229E8313D0033E803 /* AppDelegate.swift */,
 				2DD964A429E8313D0033E803 /* SceneDelegate.swift */,
-				2DD964A629E8313D0033E803 /* ViewController.swift */,
-				2DD964A829E8313D0033E803 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2DD964B729E834A80033E803 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2DD964AB29E8313E0033E803 /* Assets.xcassets */,
 				2DD964AD29E8313E0033E803 /* LaunchScreen.storyboard */,
 				2DD964B029E8313E0033E803 /* Info.plist */,
 			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DD964B829E834CC0033E803 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964B929E835380033E803 /* TabBar */,
+				2DD964BC29E835C70033E803 /* PrayerTimes */,
+				2DD964BD29E835D00033E803 /* QiblaFinder */,
+				2DD964BE29E835DB0033E803 /* SurahsDuas */,
+				2DD964BF29E835E40033E803 /* Hadiths */,
+				2DD964C029E835EB0033E803 /* Settings */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2DD964B929E835380033E803 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964BA29E835440033E803 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2DD964BC29E835C70033E803 /* PrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C129E8380D0033E803 /* PrayerTimesController.swift */,
+				2DD964FE29E847330033E803 /* PrayerTimesView.swift */,
+				2DD9650329E84B350033E803 /* PrayerItemView.swift */,
+				2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */,
+			);
 			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		2DD964BD29E835D00033E803 /* QiblaFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C329E838180033E803 /* QiblaFinderController.swift */,
+			);
+			path = QiblaFinder;
+			sourceTree = "<group>";
+		};
+		2DD964BE29E835DB0033E803 /* SurahsDuas */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C529E838220033E803 /* SurahsDuasController.swift */,
+			);
+			path = SurahsDuas;
+			sourceTree = "<group>";
+		};
+		2DD964BF29E835E40033E803 /* Hadiths */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C729E838310033E803 /* HadithsController.swift */,
+			);
+			path = Hadiths;
+			sourceTree = "<group>";
+		};
+		2DD964C029E835EB0033E803 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C929E838400033E803 /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2DD964CB29E83D3F0033E803 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964EE29E842A00033E803 /* cera pro sv */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2DD964D229E83DB00033E803 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964D329E83DBA0033E803 /* UIFont+.swift */,
+				2DD964FB29E846150033E803 /* UIColor+.swift */,
+				2DD9650729E865990033E803 /* UIApplication+.swift */,
+				2DD9650929E866610033E803 /* UIView+.swift */,
+				2DD9650B29E867D00033E803 /* UIStackView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DD964EE29E842A00033E803 /* cera pro sv */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964EF29E842A00033E803 /* Cera Pro Light.otf */,
+				2DD964F029E842A00033E803 /* Cera Pro Regular Italic.otf */,
+				2DD964F129E842A00033E803 /* Cera Pro Black Italic.otf */,
+				2DD964F229E842A00033E803 /* Cera Pro Bold.otf */,
+				2DD964F329E842A00033E803 /* Cera Pro Medium.otf */,
+				2DD964F429E842A00033E803 /* Cera Pro Black.otf */,
+			);
+			path = "cera pro sv";
+			sourceTree = "<group>";
+		};
+		2DD9650F29E8698E0033E803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +247,10 @@
 			dependencies = (
 			);
 			name = PrayerTimes;
+			packageProductDependencies = (
+				2DD9650129E848DD0033E803 /* SnapKit */,
+				2DD9651029E8698E0033E803 /* NetworkManager */,
+			);
 			productName = PrayerTimes;
 			productReference = 2DD9649F29E8313D0033E803 /* PrayerTimes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +279,9 @@
 				Base,
 			);
 			mainGroup = 2DD9649629E8313D0033E803;
+			packageReferences = (
+				2DD9650029E848DD0033E803 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2DD964A029E8313D0033E803 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +296,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD964F929E842A00033E803 /* Cera Pro Medium.otf in Resources */,
 				2DD964AF29E8313E0033E803 /* LaunchScreen.storyboard in Resources */,
+				2DD964FA29E842A00033E803 /* Cera Pro Black.otf in Resources */,
+				2DD964F829E842A00033E803 /* Cera Pro Bold.otf in Resources */,
+				2DD964F729E842A00033E803 /* Cera Pro Black Italic.otf in Resources */,
+				2DD964F529E842A00033E803 /* Cera Pro Light.otf in Resources */,
+				2DD964F629E842A00033E803 /* Cera Pro Regular Italic.otf in Resources */,
 				2DD964AC29E8313E0033E803 /* Assets.xcassets in Resources */,
-				2DD964AA29E8313D0033E803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +314,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD964A729E8313D0033E803 /* ViewController.swift in Sources */,
+				2DD964CA29E838400033E803 /* SettingsController.swift in Sources */,
+				2DD9650629E84B620033E803 /* PrayerItemViewModel.swift in Sources */,
+				2DD9650829E865990033E803 /* UIApplication+.swift in Sources */,
+				2DD964D429E83DBA0033E803 /* UIFont+.swift in Sources */,
+				2DD964C629E838220033E803 /* SurahsDuasController.swift in Sources */,
+				2DD964BB29E835440033E803 /* TabBarController.swift in Sources */,
 				2DD964A329E8313D0033E803 /* AppDelegate.swift in Sources */,
+				2DD9650C29E867D00033E803 /* UIStackView+.swift in Sources */,
+				2DD964FF29E847330033E803 /* PrayerTimesView.swift in Sources */,
 				2DD964A529E8313D0033E803 /* SceneDelegate.swift in Sources */,
+				2DD9650A29E866610033E803 /* UIView+.swift in Sources */,
+				2DD964C429E838180033E803 /* QiblaFinderController.swift in Sources */,
+				2DD9650429E84B350033E803 /* PrayerItemView.swift in Sources */,
+				2DD964C829E838310033E803 /* HadithsController.swift in Sources */,
+				2DD964C229E8380D0033E803 /* PrayerTimesController.swift in Sources */,
+				2DD964FC29E846150033E803 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DD964A829E8313D0033E803 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DD964A929E8313D0033E803 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DD964AD29E8313E0033E803 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +470,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PrayerTimes/Info.plist;
+				INFOPLIST_FILE = PrayerTimes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +483,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.nsemir.PrayerTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +501,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PrayerTimes/Info.plist;
+				INFOPLIST_FILE = PrayerTimes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +514,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.nsemir.PrayerTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +545,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DD9650029E848DD0033E803 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DD9650129E848DD0033E803 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DD9650029E848DD0033E803 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2DD9651029E8698E0033E803 /* NetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DD9649729E8313D0033E803 /* Project object */;
 }
