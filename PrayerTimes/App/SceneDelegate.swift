@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -21,33 +22,37 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
 
     func sceneDidDisconnect(_ scene: UIScene) {
-        // Called as the scene is being released by the system.
-        // This occurs shortly after the scene enters the background, or when its session is discarded.
-        // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        showAlert()
     }
 
-    func sceneDidBecomeActive(_ scene: UIScene) {
-        // Called when the scene has moved from an inactive state to an active state.
-        // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
-    }
-
-    func sceneWillResignActive(_ scene: UIScene) {
-        // Called when the scene will move from an active state to an inactive state.
-        // This may occur due to temporary interruptions (ex. an incoming phone call).
-    }
-
-    func sceneWillEnterForeground(_ scene: UIScene) {
-        // Called as the scene transitions from the background to the foreground.
-        // Use this method to undo the changes made on entering the background.
-    }
-
+    
     func sceneDidEnterBackground(_ scene: UIScene) {
-        // Called as the scene transitions from the foreground to the background.
-        // Use this method to save data, release shared resources, and store enough scene-specific state information
-        // to restore the scene back to its current state.
+        showAlert()
+        let tabBar = (window!.rootViewController) as! TabBarController
+        let mainVC = tabBar.viewControllers![0] as! PrayerTimesController
+        mainVC.containerView?.viewModel.delegate?.invalidateTimer()
+    }
+    
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        let tabBar = (window!.rootViewController) as! TabBarController
+        let mainVC = tabBar.viewControllers![0] as! PrayerTimesController
+        if let prayerTimes = mainVC.prayerTimes {
+            mainVC.containerView?.viewModel.didReceivePrayerTimes(prayerTimes: prayerTimes)
+        }
     }
 
-
+    private func showAlert() {
+        if let timeName = UserDefaults.standard.string(forKey: "timeName") {
+            let remainTime = UserDefaults.standard.integer(forKey: "remainTime")
+            let content = UNMutableNotificationContent()
+            content.title = "\(timeName) namazı yaklaşıyor!"
+            content.body = "10 dakika sonra \(timeName) ezanı okunacak."
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(remainTime - 600), repeats: false)
+            let request = UNNotificationRequest(identifier: "MyNotification", content: content, trigger: trigger)
+            UNUserNotificationCenter.current().add(request)
+        }
+    }
 }
 

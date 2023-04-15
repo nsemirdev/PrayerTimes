@@ -8,14 +8,6 @@
 import UIKit
 
 extension UIFont {
-    /*
-     CeraPro-Italic
-     CeraPro-Light
-     CeraPro-Medium
-     CeraPro-Bold
-     CeraPro-Black
-     CeraPro-BlackItalic
-*/
     static func ceraItalic(size: CGFloat) -> UIFont {
         .init(name: "CeraPro-Italic", size: size)!
     }

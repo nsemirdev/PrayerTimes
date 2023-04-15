@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D50517729E888AC0062F5F1 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50517629E888AC0062F5F1 /* UIImageView+.swift */; };
+		2D50517929E88AE60062F5F1 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50517829E88AE60062F5F1 /* UILabel+.swift */; };
+		2D50517B29E88DD00062F5F1 /* PrayerTimesPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50517A29E88DD00062F5F1 /* PrayerTimesPresentation.swift */; };
+		2D6726BE29EACCFB0031972E /* PrayerTimesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6726BD29EACCFB0031972E /* PrayerTimesViewDelegate.swift */; };
+		2D95709E29EAB2770030291A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95709D29EAB2770030291A /* DateHelper.swift */; };
+		2D9570A029EAB3490030291A /* TimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95709F29EAB3490030291A /* TimeInterval+.swift */; };
 		2DD964A329E8313D0033E803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964A229E8313D0033E803 /* AppDelegate.swift */; };
 		2DD964A529E8313D0033E803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964A429E8313D0033E803 /* SceneDelegate.swift */; };
 		2DD964AC29E8313E0033E803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD964AB29E8313E0033E803 /* Assets.xcassets */; };
@@ -27,8 +33,8 @@
 		2DD964FC29E846150033E803 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964FB29E846150033E803 /* UIColor+.swift */; };
 		2DD964FF29E847330033E803 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD964FE29E847330033E803 /* PrayerTimesView.swift */; };
 		2DD9650229E848DD0033E803 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD9650129E848DD0033E803 /* SnapKit */; };
-		2DD9650429E84B350033E803 /* PrayerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650329E84B350033E803 /* PrayerItemView.swift */; };
-		2DD9650629E84B620033E803 /* PrayerItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */; };
+		2DD9650429E84B350033E803 /* SingleTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650329E84B350033E803 /* SingleTime.swift */; };
+		2DD9650629E84B620033E803 /* PrayerTimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650529E84B620033E803 /* PrayerTimesViewModel.swift */; };
 		2DD9650829E865990033E803 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650729E865990033E803 /* UIApplication+.swift */; };
 		2DD9650A29E866610033E803 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650929E866610033E803 /* UIView+.swift */; };
 		2DD9650C29E867D00033E803 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9650B29E867D00033E803 /* UIStackView+.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D50517629E888AC0062F5F1 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		2D50517829E88AE60062F5F1 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		2D50517A29E88DD00062F5F1 /* PrayerTimesPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesPresentation.swift; sourceTree = "<group>"; };
+		2D6726BD29EACCFB0031972E /* PrayerTimesViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesViewDelegate.swift; sourceTree = "<group>"; };
+		2D95709D29EAB2770030291A /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		2D95709F29EAB3490030291A /* TimeInterval+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+.swift"; sourceTree = "<group>"; };
 		2DD9649F29E8313D0033E803 /* PrayerTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD964A229E8313D0033E803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD964A429E8313D0033E803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +69,8 @@
 		2DD964F429E842A00033E803 /* Cera Pro Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Black.otf"; sourceTree = "<group>"; };
 		2DD964FB29E846150033E803 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		2DD964FE29E847330033E803 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
-		2DD9650329E84B350033E803 /* PrayerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemView.swift; sourceTree = "<group>"; };
-		2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerItemViewModel.swift; sourceTree = "<group>"; };
+		2DD9650329E84B350033E803 /* SingleTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTime.swift; sourceTree = "<group>"; };
+		2DD9650529E84B620033E803 /* PrayerTimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesViewModel.swift; sourceTree = "<group>"; };
 		2DD9650729E865990033E803 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
 		2DD9650929E866610033E803 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		2DD9650B29E867D00033E803 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
@@ -78,6 +90,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D50517C29E88DE50062F5F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964C129E8380D0033E803 /* PrayerTimesController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D50517D29E88DF50062F5F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DD964FE29E847330033E803 /* PrayerTimesView.swift */,
+				2DD9650329E84B350033E803 /* SingleTime.swift */,
+				2D6726BD29EACCFB0031972E /* PrayerTimesViewDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D50517E29E88E080062F5F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DD9650529E84B620033E803 /* PrayerTimesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D50517F29E88E110062F5F1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2D50517A29E88DD00062F5F1 /* PrayerTimesPresentation.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2D95709C29EAB2710030291A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2D95709D29EAB2770030291A /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		2DD9649629E8313D0033E803 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +153,7 @@
 		2DD964A129E8313D0033E803 /* PrayerTimes */ = {
 			isa = PBXGroup;
 			children = (
+				2D95709C29EAB2710030291A /* Helpers */,
 				2DD964D229E83DB00033E803 /* Extensions */,
 				2DD964CB29E83D3F0033E803 /* Fonts */,
 				2DD964B629E8349F0033E803 /* App */,
@@ -151,10 +206,10 @@
 		2DD964BC29E835C70033E803 /* PrayerTimes */ = {
 			isa = PBXGroup;
 			children = (
-				2DD964C129E8380D0033E803 /* PrayerTimesController.swift */,
-				2DD964FE29E847330033E803 /* PrayerTimesView.swift */,
-				2DD9650329E84B350033E803 /* PrayerItemView.swift */,
-				2DD9650529E84B620033E803 /* PrayerItemViewModel.swift */,
+				2D50517C29E88DE50062F5F1 /* Controller */,
+				2D50517D29E88DF50062F5F1 /* Views */,
+				2D50517E29E88E080062F5F1 /* ViewModel */,
+				2D50517F29E88E110062F5F1 /* Presentation */,
 			);
 			path = PrayerTimes;
 			sourceTree = "<group>";
@@ -207,6 +262,9 @@
 				2DD9650729E865990033E803 /* UIApplication+.swift */,
 				2DD9650929E866610033E803 /* UIView+.swift */,
 				2DD9650B29E867D00033E803 /* UIStackView+.swift */,
+				2D50517629E888AC0062F5F1 /* UIImageView+.swift */,
+				2D50517829E88AE60062F5F1 /* UILabel+.swift */,
+				2D95709F29EAB3490030291A /* TimeInterval+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,19 +372,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D50517929E88AE60062F5F1 /* UILabel+.swift in Sources */,
+				2D50517B29E88DD00062F5F1 /* PrayerTimesPresentation.swift in Sources */,
 				2DD964CA29E838400033E803 /* SettingsController.swift in Sources */,
-				2DD9650629E84B620033E803 /* PrayerItemViewModel.swift in Sources */,
+				2DD9650629E84B620033E803 /* PrayerTimesViewModel.swift in Sources */,
 				2DD9650829E865990033E803 /* UIApplication+.swift in Sources */,
+				2D95709E29EAB2770030291A /* DateHelper.swift in Sources */,
 				2DD964D429E83DBA0033E803 /* UIFont+.swift in Sources */,
 				2DD964C629E838220033E803 /* SurahsDuasController.swift in Sources */,
 				2DD964BB29E835440033E803 /* TabBarController.swift in Sources */,
+				2D9570A029EAB3490030291A /* TimeInterval+.swift in Sources */,
+				2D50517729E888AC0062F5F1 /* UIImageView+.swift in Sources */,
 				2DD964A329E8313D0033E803 /* AppDelegate.swift in Sources */,
 				2DD9650C29E867D00033E803 /* UIStackView+.swift in Sources */,
+				2D6726BE29EACCFB0031972E /* PrayerTimesViewDelegate.swift in Sources */,
 				2DD964FF29E847330033E803 /* PrayerTimesView.swift in Sources */,
 				2DD964A529E8313D0033E803 /* SceneDelegate.swift in Sources */,
 				2DD9650A29E866610033E803 /* UIView+.swift in Sources */,
 				2DD964C429E838180033E803 /* QiblaFinderController.swift in Sources */,
-				2DD9650429E84B350033E803 /* PrayerItemView.swift in Sources */,
+				2DD9650429E84B350033E803 /* SingleTime.swift in Sources */,
 				2DD964C829E838310033E803 /* HadithsController.swift in Sources */,
 				2DD964C229E8380D0033E803 /* PrayerTimesController.swift in Sources */,
 				2DD964FC29E846150033E803 /* UIColor+.swift in Sources */,

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import NetworkManager
 
 final class TabBarController: UITabBarController {
 

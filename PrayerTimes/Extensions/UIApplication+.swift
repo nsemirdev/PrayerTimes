@@ -13,4 +13,9 @@ extension UIApplication {
         let window = UIApplication.shared.connectedScenes.first!
         return (window as? UIWindowScene)!.windows.first!.safeAreaInsets.bottom
     }
+    
+    static func getSafeAreaTop() -> CGFloat {
+        let window = UIApplication.shared.connectedScenes.first!
+        return (window as? UIWindowScene)!.windows.first!.safeAreaInsets.top
+    }
 }
